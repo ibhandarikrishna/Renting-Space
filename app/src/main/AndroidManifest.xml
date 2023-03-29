@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibhandarikrishna.rentspace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:label="RentSpace"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ibhandarikrishna.rentspace.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ibhandarikrishna.rentspace.LoginActivity" />
+        <activity android:name="com.ibhandarikrishna.rentspace.ProfileActivity" />
+        <activity android:name="com.ibhandarikrishna.rentspace.MyPlaces" />
+        <activity android:name="com.ibhandarikrishna.rentspace.AddPlaces" />
+        <activity android:name="com.ibhandarikrishna.rentspace.MyPlaces2" />
+        <activity android:name="com.ibhandarikrishna.rentspace.GuestMode" />
+        <activity android:name="com.ibhandarikrishna.rentspace.SearchBox" />
+        <activity android:name="com.ibhandarikrishna.rentspace.CategorySelect" />
+        <activity android:name="com.ibhandarikrishna.rentspace.Settings" />
+
+    </application>
+
+</manifest>

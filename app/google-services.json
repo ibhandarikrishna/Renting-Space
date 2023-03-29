@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288174949782",
+    "project_id": "rentspace-f5515",
+    "storage_bucket": "rentspace-f5515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288174949782:android:a5d158436693d4e83509b7",
+        "android_client_info": {
+          "package_name": "com.ibhandarikrishna.rentspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288174949782-i3l2lvu8ik2cvkb27kq9luqs2f1dflj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_C6LTZHwRCgpFTQPPv16S3HRKMCfv-5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288174949782-i3l2lvu8ik2cvkb27kq9luqs2f1dflj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
